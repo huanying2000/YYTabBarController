@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		814056391E8DFFAB00DC0162 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 814056381E8DFFAB00DC0162 /* UIImage+Extension.m */; };
+		8140563C1E8E09A700DC0162 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8140563B1E8E09A700DC0162 /* UIColor+Extension.m */; };
 		816567B41E8CDCA50001EDBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 816567B31E8CDCA50001EDBF /* main.m */; };
 		816567B71E8CDCA50001EDBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 816567B61E8CDCA50001EDBF /* AppDelegate.m */; };
 		816567BA1E8CDCA50001EDBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 816567B91E8CDCA50001EDBF /* ViewController.m */; };
@@ -15,6 +17,10 @@
 		816567C21E8CDCA50001EDBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816567C01E8CDCA50001EDBF /* LaunchScreen.storyboard */; };
 		816567CD1E8CDCA50001EDBF /* YYtabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 816567CC1E8CDCA50001EDBF /* YYtabBarTests.m */; };
 		816567D81E8CDCA50001EDBF /* YYtabBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 816567D71E8CDCA50001EDBF /* YYtabBarUITests.m */; };
+		816567E81E8CDD620001EDBF /* YYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 816567E71E8CDD620001EDBF /* YYTabBar.m */; };
+		816567EB1E8CDD940001EDBF /* YYTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 816567EA1E8CDD940001EDBF /* YYTabBarItem.m */; };
+		816567EE1E8CDDB80001EDBF /* YYTabBarItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 816567ED1E8CDDB80001EDBF /* YYTabBarItemModel.m */; };
+		816567F11E8CDDF30001EDBF /* YYTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 816567F01E8CDDF30001EDBF /* YYTabBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		814056371E8DFFAB00DC0162 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		814056381E8DFFAB00DC0162 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		8140563A1E8E09A700DC0162 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		8140563B1E8E09A700DC0162 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
 		816567AF1E8CDCA50001EDBF /* YYtabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYtabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		816567B31E8CDCA50001EDBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		816567B51E8CDCA50001EDBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +61,14 @@
 		816567D31E8CDCA50001EDBF /* YYtabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYtabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		816567D71E8CDCA50001EDBF /* YYtabBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYtabBarUITests.m; sourceTree = "<group>"; };
 		816567D91E8CDCA50001EDBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816567E61E8CDD620001EDBF /* YYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTabBar.h; sourceTree = "<group>"; };
+		816567E71E8CDD620001EDBF /* YYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTabBar.m; sourceTree = "<group>"; };
+		816567E91E8CDD940001EDBF /* YYTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTabBarItem.h; sourceTree = "<group>"; };
+		816567EA1E8CDD940001EDBF /* YYTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTabBarItem.m; sourceTree = "<group>"; };
+		816567EC1E8CDDB80001EDBF /* YYTabBarItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTabBarItemModel.h; sourceTree = "<group>"; };
+		816567ED1E8CDDB80001EDBF /* YYTabBarItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTabBarItemModel.m; sourceTree = "<group>"; };
+		816567EF1E8CDDF30001EDBF /* YYTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTabBarViewController.h; sourceTree = "<group>"; };
+		816567F01E8CDDF30001EDBF /* YYTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTabBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +96,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		814056361E8DFF6700DC0162 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				814056371E8DFFAB00DC0162 /* UIImage+Extension.h */,
+				814056381E8DFFAB00DC0162 /* UIImage+Extension.m */,
+				8140563A1E8E09A700DC0162 /* UIColor+Extension.h */,
+				8140563B1E8E09A700DC0162 /* UIColor+Extension.m */,
+			);
+			name = category;
+			sourceTree = "<group>";
+		};
 		816567A61E8CDCA50001EDBF = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +130,8 @@
 		816567B11E8CDCA50001EDBF /* YYtabBar */ = {
 			isa = PBXGroup;
 			children = (
+				814056361E8DFF6700DC0162 /* category */,
+				816567E51E8CDD220001EDBF /* YYTabBarController */,
 				816567B51E8CDCA50001EDBF /* AppDelegate.h */,
 				816567B61E8CDCA50001EDBF /* AppDelegate.m */,
 				816567B81E8CDCA50001EDBF /* ViewController.h */,
@@ -138,6 +169,21 @@
 				816567D91E8CDCA50001EDBF /* Info.plist */,
 			);
 			path = YYtabBarUITests;
+			sourceTree = "<group>";
+		};
+		816567E51E8CDD220001EDBF /* YYTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				816567E61E8CDD620001EDBF /* YYTabBar.h */,
+				816567E71E8CDD620001EDBF /* YYTabBar.m */,
+				816567E91E8CDD940001EDBF /* YYTabBarItem.h */,
+				816567EA1E8CDD940001EDBF /* YYTabBarItem.m */,
+				816567EC1E8CDDB80001EDBF /* YYTabBarItemModel.h */,
+				816567ED1E8CDDB80001EDBF /* YYTabBarItemModel.m */,
+				816567EF1E8CDDF30001EDBF /* YYTabBarViewController.h */,
+				816567F01E8CDDF30001EDBF /* YYTabBarViewController.m */,
+			);
+			name = YYTabBarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +319,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				816567F11E8CDDF30001EDBF /* YYTabBarViewController.m in Sources */,
 				816567BA1E8CDCA50001EDBF /* ViewController.m in Sources */,
 				816567B71E8CDCA50001EDBF /* AppDelegate.m in Sources */,
 				816567B41E8CDCA50001EDBF /* main.m in Sources */,
+				8140563C1E8E09A700DC0162 /* UIColor+Extension.m in Sources */,
+				816567EB1E8CDD940001EDBF /* YYTabBarItem.m in Sources */,
+				816567EE1E8CDDB80001EDBF /* YYTabBarItemModel.m in Sources */,
+				816567E81E8CDD620001EDBF /* YYTabBar.m in Sources */,
+				814056391E8DFFAB00DC0162 /* UIImage+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +559,7 @@
 				816567DE1E8CDCA50001EDBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		816567DF1E8CDCA50001EDBF /* Build configuration list for PBXNativeTarget "YYtabBarTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +568,7 @@
 				816567E11E8CDCA50001EDBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		816567E21E8CDCA50001EDBF /* Build configuration list for PBXNativeTarget "YYtabBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +577,7 @@
 				816567E41E8CDCA50001EDBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
